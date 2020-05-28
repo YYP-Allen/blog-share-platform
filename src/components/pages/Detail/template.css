@@ -1,0 +1,28 @@
+@import url("../../../assets/common.css");
+@import url("../../../assets/article.css");
+
+.user-info {
+  display: flex;
+  padding-top: 30px;
+}
+.user-info img {
+  width: 58px;
+  height: 58px;
+  border-radius: 50%;
+  border: 1px solid #fff;
+}
+.detail-more {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  font-size: 13px;
+  color: #999;
+  font-weight: 450;
+  padding-left: 10px;
+}
+#detail .detail-more  a {
+  color: #090;
+  padding-right: 5px;
+}
+
+

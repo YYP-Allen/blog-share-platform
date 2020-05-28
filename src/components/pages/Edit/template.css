@@ -1,0 +1,31 @@
+#edit h1 {
+  margin-top: 20px;
+  text-align: center;
+}
+#edit h3 {
+  margin-top: 30px;
+  margin-bottom: 10px;
+}
+#edit p.limit_info {
+  position: absolute;
+  color: #999;
+  font-size: 12px;
+  right: 0;
+  margin-top: 5px;
+}
+#edit button[type=button] {
+  padding: 10px 15px;
+  font-size: 17px;
+  border-radius: 5px;
+  background-color: #fff;
+  margin-top: 15px;
+  border: 1px solid #999;
+}
+#edit button[type=button]:hover {
+  background-color: #ecf5ff;
+  color: #409eff;
+  border-color: #c6e2ff;
+}
+#edit .showAtIndex {
+  margin-top: 40px;
+}

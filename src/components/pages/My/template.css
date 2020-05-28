@@ -1,0 +1,53 @@
+#my {
+  padding-top: 20px;
+}
+#my > .user-info {
+  display: flex;
+  align-items: center;
+  padding-bottom: 20px;
+  border-bottom: 1px solid #f7b23e;
+}
+#my .user-info > h3 {
+  margin-left: 15px;
+}
+.user-info img.avatar {
+  width: 65px;
+  height: 65px;
+  border-radius: 50%;
+  border: 1px solid #fff;
+}
+#my .item {
+  display: flex;
+  margin-top: 18px;
+}
+#my .item .content-more {
+  margin-left: 15px;
+  padding-top: 12px;
+}
+#my .item p {
+  margin-top: 15px;
+}
+#my .item .edit-dele {
+  margin-top: 10px;
+}
+#my .item .date {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  color: #999;
+}
+#my .item .date > .day {
+  font-size: 40px;
+  align-self: flex-start;
+}
+#my .item .date > .month,
+#my .item .date > .year {
+  font-size: 13px;
+}
+#my .pagination {
+  display: flex;
+  justify-content: center;
+}
+#my .edit-dele > a {
+  color: #090;
+}

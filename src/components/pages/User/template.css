@@ -1,0 +1,36 @@
+#user > .user-info {
+  display: flex;
+  align-items: center;
+  padding-top: 30px;
+  padding-bottom: 20px;
+  border-bottom: 1px solid #f7b23e;
+}
+#user .item {
+  display: flex;
+  padding-top: 30px;  
+}
+.item .date {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  color: #999;
+}
+#user .item .date .day {
+  font-size: 32px;
+}
+.user-info img.avatar {
+  width: 65px;
+  height: 65px;
+  border-radius: 50%;
+  border: 1px solid #fff;
+}
+.user-info > h3 {
+  padding-left: 5px;
+}
+#user .item .content-more {
+  margin-left: 15px;
+  padding-top: 12px;
+}
+#user .el-pagination {
+  text-align: center;
+}
