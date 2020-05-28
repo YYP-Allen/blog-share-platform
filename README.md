@@ -25,14 +25,14 @@ JavaScript，*ES6 promise 赋值结构**，**Vue**,**Vuex**,**Vue-router**, **el
 ![首页](./src/assets/pictures/index.png)
 ****
 登录、注册
-![登录](./src/assets/pictures/login.png)
+![登录](https://github.com/YYP-Allen/blog-share-platform/tree/master/src/assets/pictures/login.png)
 
-![注册](./src/assets/pictures/register.png)
+![注册](https://github.com/YYP-Allen/blog-share-platform/tree/master/src/assets/pictures/register.png)
 ****
 创建、修改博客
-![创建博客](./src/assets/pictures/create.png)
+![创建博客](https://github.com/YYP-Allen/blog-share-platform/tree/master/src/assets/pictures/create.png)
 
-![修改博客](./src/assets/pictures/update.png)
+![修改博客](https://github.com/YYP-Allen/blog-share-platform/tree/master/src/assets/pictures/update.png)
 
 
 
