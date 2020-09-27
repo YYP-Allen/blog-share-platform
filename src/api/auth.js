@@ -16,6 +16,7 @@ export default {
   },
   // 用户注销登录
   logout() {
+    localStorage.removeItem('token')
     return request(URL.LOGOUT)
   },
   // 获取当前登录的用户,判定当前的用户是否登录

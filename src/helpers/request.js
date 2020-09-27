@@ -6,10 +6,10 @@ import { Message } from 'element-ui'
 // Config Default
 axios.defaults.headers.post['Content-Type'] = 'application/x-www-form-urlencoded'
 // 接口的路径，后面获取数据只需要传递相对路径，而不是把整个路径都传进去
-axios.defaults.baseURL = 'https://blog-server.hunger-valley.com' 
+axios.defaults.baseURL = 'https://blog-server.hunger-valley.com'
 
 // 跨域请求的同时，发送cookie
-axios.defaults.withCredentials = true 
+axios.defaults.withCredentials = true
 
 export default function request(url, type = 'GET', data = {}) {
   return new Promise((resolve, reject) => {
@@ -23,11 +23,17 @@ export default function request(url, type = 'GET', data = {}) {
     } else {
       option.data = data
     }
+    if (localStorage.token()) {
+      axios.defaults.headers.common['Authorization'] = localStorage.token
+    }
     // axios本身也支持Promise API
     axios(option).then(res => {
       console.log(res.data)
       // 登录成功
       if (res.data.status === 'ok') {
+        if (res.data.token) {
+          localStorage.token = res.data.token
+        }
         resolve(res.data)
       } else {
         // this.$message.error('...')，elementUI 只在vue实例引入中使用，当前环境并没有引入
